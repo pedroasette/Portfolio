@@ -1,0 +1,35 @@
+.test {
+    color: green;
+}
+
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center; 
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+
+ul {
+  list-style: none;
+}
+  
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .back {
+    display: block;   
+    margin: 1.5rem auto 0;       
+    text-decoration: none;
+    color: #3b82f6;
+    font-weight: 500;
+    transition: color 0.3s;
+    text-align: center;          
+  }

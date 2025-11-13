@@ -1,0 +1,43 @@
+:root {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 1.6;
+    font-family: sans-serif;
+    background-color: #eee;
+  }
+
+  main > * {
+    margin-block: 1rem;
+  }
+
+  label,
+  input {
+    display: block;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  caption {
+    text-align: left;
+    font-size: 120%;
+    font-weight: bold;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  .back {
+    display: block;   
+    margin: 1.5rem auto 0;       
+    text-decoration: none;
+    color: #3b82f6;
+    font-weight: 500;
+    transition: color 0.3s;
+    text-align: center;          
+  }
