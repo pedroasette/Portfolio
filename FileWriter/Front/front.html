@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>File Writer</title>
+        <style>
+            .container {
+                max-width: 400px;
+                margin: 80px auto;
+                background: white;
+                padding: 25px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                text-align: center;
+            }   
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            label {
+                font-size: 14px;
+            }
+
+            input {
+                padding: 10px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+            }
+
+           
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>File Writer</h1>
+    
+            <form id="textForm">
+                <label for="input">Enter your text:</label>
+                <input id="input" type="text" placeholder="Type something..." required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <script>
+            async function sendData(data) {
+                const req = await fetch("http://localhost:3200/" , {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json" },
+                    body: JSON.stringify({ text: data})
+                })
+
+            }
+
+            const input = document.querySelector('input');
+            const button = document.querySelector('button');
+            button.addEventListener("click", (event) => {
+                event.preventDefault();
+                console.log(input.value);
+                sendData(input.value)
+                input.value = "";
+            })
+            
+        </script>
+    </body>
+</html>
