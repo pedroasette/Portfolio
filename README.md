@@ -30,6 +30,7 @@ Check out some of my featured projects:
 - **Project 2:** Calculator
 - **Project 3:** Car seaching by make
 - **Project 4:** Rock, Paper, Scissors
+- **Project 5:** File Writer. For now it's needed to run it localy. To start the server use npm start and open the html file in your browser
 
 ---
 
