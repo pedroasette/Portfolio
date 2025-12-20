@@ -1,13 +1,13 @@
 
 # Personal Portfolio
 
-Welcome to my **Web Development Portfolio** — a showcase of my skills, projects, and professional journey as a developer.  
+Welcome to my Web Development Portfolio — a showcase of my skills, projects, and professional journey as a developer.  
 This portfolio was built to demonstrate my technical abilities, creativity, and growth as I continue advancing in front-end and full-stack development.
 
 ---
 
 ##  About Me
-Hi! I’m **[Pedro Sette]**, a passionate **web developer** focused on building modern, accessible, and responsive websites.  
+Hi! I’m Pedro Sette, a passionate **web developer** focused on building modern, accessible, and responsive websites.  
 I enjoy bringing ideas to life through clean code, engaging design, and intuitive user experiences.
 
 💡 My core interests include:
